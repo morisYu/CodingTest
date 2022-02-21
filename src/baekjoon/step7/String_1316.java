@@ -21,7 +21,7 @@ public class String_1316 {
 
 		for (int i = 0; i < N; i++) {
 			if (test(str[i])) {
-//				System.out.println("테스트 결과 = " + test(str[i]));
+				System.out.println("테스트 결과 = " + test(str[i]));
 				count++;
 			}
 		}
