@@ -11,30 +11,34 @@ import java.util.Arrays;
 
 public class Math_4153 {
 	public static void main(String[] args) throws IOException {
-//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		String str;
-//		int[] distance = new int[3];
-//		while(true) {
-//			
-//			str = br.readLine();
-//			for(int i=0;i<distance.length;i++) {
-//				distance[i]=Integer.parseInt(str.split(" ")[i]);
-//			}
-//			
-//			if(distance[0]==0 || distance[1]==0 || distance[2]==0) {
-//				return;
-//			}
-//			pythagorean(distance);
-//		}
-		testMath_4153.testCase();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str;
+		int[] distance = new int[3];
+		while(true) {
+			
+			str = br.readLine();
+			for(int i=0;i<distance.length;i++) {
+				distance[i]=Integer.parseInt(str.split(" ")[i]);
+			}
+			
+			if(distance[0]==0 || distance[1]==0 || distance[2]==0) {
+				return;
+			}
+			pythagorean(distance);
+		}
+		
+//		testMath_4153.testCase();
 	}
 	
+	// 배열을 정렬하면 제일 큰 숫자가 배열의 끝에 배치됨.
+	// 피타고라스 정리
 	static void pythagorean(int[] distance) {
 		Arrays.sort(distance);
 		
-		for(int i : distance) {
-			System.out.println(i);
-		}
+//		for(int i : distance) {
+//			System.out.println(i);
+//		}
+		
 		if(Math.pow(distance[2], 2)==(Math.pow(distance[0], 2)+Math.pow(distance[1], 2))) {
 			System.out.println("right");
 		}else {
@@ -43,22 +47,23 @@ public class Math_4153 {
 	}
 }
 
+// 테스트코드
 class testMath_4153{
 	static void testCase() {
 		
-		System.out.println("입력값");
 		while(true) {
+			System.out.println("입력값");
 			int[] distance = new int[3];
 			for(int i=0;i<3;i++) {
 				distance[i]=(int)(Math.random()*100);
-				System.out.print(i+" ");
+				System.out.print(distance[i]+" ");
 			}
 			System.out.println();
 			
-//			if(distance[0]==0 || distance[1]==0 || distance[2]==0) {
-//				System.out.println("0이 입력됨");
-//				return;
-//			}
+			if(distance[0]==0 || distance[1]==0 || distance[2]==0) {
+				System.out.println("0이 입력됨");
+				return;
+			}
 			
 			Math_4153.pythagorean(distance);
 		}
