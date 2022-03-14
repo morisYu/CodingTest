@@ -7,68 +7,45 @@ package baekjoon.step10;
 import java.util.Scanner;
 
 public class Recursion_2447 {
-	
+
 	public static char[][] ch;
-	
+
 	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder();
+
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
-		int k = scanner.nextInt();
-		int n = (int) Math.pow(3, k);
-		ch = new char[n][n];
-		star(k);
-	}
-
-	static void star(int k) {
-		StringBuilder sb = new StringBuilder();
-		int n = (int) Math.pow(3, k);
-		int x = k / 3;
-		int y = k / 3;
-
-		if (k == 1) {
-			for (int i = 0; i < 3; i++) {
-				for (int j = 0; j < 3; j++) {
-					if (i == 1 && j == 1) {
-						ch[i][j] = ' ';
-					} else {
-						ch[i][j] = '*';
-					}
-				}
-			}
-		} else {
-
-			for (int i = 0; i < k; i++) {
-				for (int j = 0; j < k; j++) {
-					if (i == x && j == y) {
-						for (int m = x; m < x + (n / 3); m++) {
-							for (int l = y; l < y + (n / 3); l++) {
-								ch[m][l] = ' ';
-							}
-						}
-						x *= 3;
-						y *= 3;
-					} else {
-						star(k - 1);
-					}
-				}
+		int N = scanner.nextInt();
+		ch = new char[N][N];
+		for (int i = 0; i < ch.length; i++) {
+			for (int j = 0; j < ch.length; j++) {
+				ch[i][j] = ' ';
 			}
 		}
+		star(0, 0, N);
 
 		// 출력부분
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n; j++) {
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
 				sb.append(ch[i][j]);
 			}
 			sb.append("\n");
 		}
 		System.out.print(sb);
 	}
-}
 
-class testRecurtion_2447 {
-	static void testCase() {
-		int k = (int) (Math.random() * 8);
+	static void star(int x, int y, int N) {
+		if (N == 1) {
+			ch[x][y] = '*';
+		} else {
+			for (int i = 0; i < 3; i++) {
+				for (int j = 0; j < 3; j++) {
+					if (!(i == 1 && j == 1)) {
+						star(x + i * (N / 3), y + j * (N / 3), N / 3);
+					}
+				}
+			}
+		}
 
-		System.out.println("입력값: " + k);
 	}
 }
