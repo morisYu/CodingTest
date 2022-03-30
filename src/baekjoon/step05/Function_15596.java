@@ -1,4 +1,4 @@
-package baekjoon.step06;
+package baekjoon.step05;
 
 // 정수 N 개의 합
 // 함수를 구현해 봅시다.

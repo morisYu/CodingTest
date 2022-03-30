@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 다이얼
 // 규칙에 따라 문자에 대응하는 수를 출력하는 문제

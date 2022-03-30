@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 문자열 반복
 // 각 문자를 반복하여 출력하는 문제

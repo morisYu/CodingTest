@@ -1,4 +1,4 @@
-package baekjoon.step09;
+package baekjoon.step08;
 
 
 // 소인수분해(1 보다 큰 정수를 소수의 곱으로 표현)

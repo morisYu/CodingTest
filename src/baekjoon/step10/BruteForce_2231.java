@@ -1,4 +1,4 @@
-package baekjoon.step11;
+package baekjoon.step10;
 
 // 분해합
 // 모든 경우를 시도하여  N의 생성자를 구하는 문제

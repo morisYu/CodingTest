@@ -1,4 +1,4 @@
-package baekjoon.step05;
+package baekjoon.step04;
 
 // 평균은 넘겠지
 // 평균이 넘는 학생들의 비율을 반올림하여 소수점 셋째 자리까지 출력

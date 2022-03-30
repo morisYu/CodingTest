@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 아스키코드
 // 아스키코드에 대해 알아보는 문제

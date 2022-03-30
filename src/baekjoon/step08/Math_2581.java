@@ -1,4 +1,4 @@
-package baekjoon.step09;
+package baekjoon.step08;
 
 // 소수
 // 2부터 x-1까지 모두 나눠서 x가 소수인지 판별하는 문제2

@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 정수의 합
 // 정수를 문자열로 입력받는 문제.

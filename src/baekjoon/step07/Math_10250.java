@@ -1,4 +1,4 @@
-package baekjoon.step08;
+package baekjoon.step07;
 
 // ACM 호텔
 // 호텔 방 번호의 규칙을 찾아 출력하는 문제

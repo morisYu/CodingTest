@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 상수
 // 숫자를 뒤집어서 비교하는 문제

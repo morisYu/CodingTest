@@ -1,4 +1,4 @@
-package baekjoon.step06;
+package baekjoon.step05;
 
 // 셀프 넘버
 // 함수 d를 정의하여 문제를 해결해 봅시다.

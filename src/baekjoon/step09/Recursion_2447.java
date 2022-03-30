@@ -1,4 +1,4 @@
-package baekjoon.step10;
+package baekjoon.step09;
 
 // 별 찍기-10
 // 재귀적인 패턴을 재귀함수로 찍는 문제1

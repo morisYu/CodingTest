@@ -1,4 +1,4 @@
-package baekjoon.step11;
+package baekjoon.step10;
 
 // 덩치
 // 모든 사람을 비교하여 덩치 등수를 구하는 문제

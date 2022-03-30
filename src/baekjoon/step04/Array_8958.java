@@ -1,4 +1,4 @@
-package baekjoon.step05;
+package baekjoon.step04;
 
 // OX 퀴즈
 // OX 퀴즈의 결과를 일차원 배열로 입력받아 점수를 계산하는 문제

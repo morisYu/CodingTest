@@ -1,4 +1,4 @@
-package baekjoon.step08;
+package baekjoon.step07;
 
 // 설탕 배달
 // 5와 3을 최소 횟수로 합하여 N을 만드는 문제

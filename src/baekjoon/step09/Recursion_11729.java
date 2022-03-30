@@ -1,4 +1,4 @@
-package baekjoon.step10;
+package baekjoon.step09;
 
 // 하노이 탑 이동순서
 // 재귀적인 패턴을 재귀함수로 찍는 문제 2

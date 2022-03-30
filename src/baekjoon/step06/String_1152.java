@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 단어의 개수
 // 단어의 개수를 구하는 문제

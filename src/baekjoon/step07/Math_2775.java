@@ -1,4 +1,4 @@
-package baekjoon.step08;
+package baekjoon.step07;
 
 // 부녀회장이 될테야
 // 층과 거주자 수의 규칙을 찾는 문제

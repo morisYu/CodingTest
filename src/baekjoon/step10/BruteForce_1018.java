@@ -1,4 +1,4 @@
-package baekjoon.step11;
+package baekjoon.step10;
 
 // 체스판 다시 칠하기
 // 체스판을 만드는 모든 경우를 시도하여 최적의 방법을 찾는 문제

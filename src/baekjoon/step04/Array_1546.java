@@ -1,4 +1,4 @@
-package baekjoon.step05;
+package baekjoon.step04;
 
 // 평균
 // 평균을 조작하는 문제

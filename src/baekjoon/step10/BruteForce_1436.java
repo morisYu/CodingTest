@@ -1,4 +1,4 @@
-package baekjoon.step11;
+package baekjoon.step10;
 
 // 영화감독 숌
 // N번째 종말의 수가 나올 때까지 차례대로 시도하는 문제

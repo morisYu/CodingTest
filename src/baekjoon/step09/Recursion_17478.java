@@ -1,4 +1,4 @@
-package baekjoon.step10;
+package baekjoon.step09;
 
 // 재귀함수 추가 예제
 

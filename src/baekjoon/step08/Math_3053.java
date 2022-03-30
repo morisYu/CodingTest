@@ -1,4 +1,4 @@
-package baekjoon.step09;
+package baekjoon.step08;
 
 // 택시 기하학
 // 유클리드 기하학과 택시 기하학에 대한 문제

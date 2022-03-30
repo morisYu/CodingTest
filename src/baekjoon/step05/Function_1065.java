@@ -1,4 +1,4 @@
-package baekjoon.step06;
+package baekjoon.step05;
 
 // 한수
 // x가 한수인지 판별하는 함수를 정의하여 문제를 해결해 봅시다.

@@ -1,4 +1,4 @@
-package baekjoon.step07;
+package baekjoon.step06;
 
 // 크로아티아 알파벳
 // 크로아티아 알파벳의 개수를 세는 문제

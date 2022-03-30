@@ -1,4 +1,4 @@
-package baekjoon.step05;
+package baekjoon.step04;
 
 // 나머지
 // 숫자 10 개를 각각 42로 나눈 나머지 중 서로 다른 값이 몇 개 있는지 출력하는 문제

@@ -1,4 +1,4 @@
-package baekjoon.step05;
+package baekjoon.step04;
 
 // 최댓값
 // 최댓값이 어디에 있는지 찾는 문제

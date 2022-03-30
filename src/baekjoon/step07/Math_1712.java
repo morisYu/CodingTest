@@ -1,4 +1,4 @@
-package baekjoon.step08;
+package baekjoon.step07;
 
 // 손익분기점
 // 이익이 발생하는 지점을 찾는 문제

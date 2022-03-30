@@ -1,4 +1,4 @@
-package baekjoon.step08;
+package baekjoon.step07;
 
 // 분수찾기
 // 분수의 순서에서 규칙은 찾는 문제
